@@ -1,0 +1,14 @@
+{
+  "name": "lostvita",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "release": "git pull && lerna version --yes --message \"chore: release\""
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

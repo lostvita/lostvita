@@ -1,0 +1,38 @@
+{
+  "name": "ashoot",
+  "version": "1.0.0",
+  "description": "a canvas shooting game",
+  "keywords": [
+    "canvas",
+    "game",
+    "animation"
+  ],
+  "author": "lostvita <lostvita@gmail.com>",
+  "homepage": "https://github.com/qiudongwei/lostvita#readme",
+  "license": "ISC",
+  "main": "lib/ashoot.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.kingsoft.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiudongwei/lostvita.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/qiudongwei/lostvita/issues"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  }
+}
