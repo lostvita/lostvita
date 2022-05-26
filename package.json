@@ -1,5 +1,5 @@
 {
-  "name": "@lostvita",
+  "name": "lostvita",
   "workspaces": [
     "packages/*"
   ],
