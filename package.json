@@ -1,6 +1,5 @@
 {
-  "name": "lostvita",
-  "private": true,
+  "name": "@lostvita",
   "workspaces": [
     "packages/*"
   ],
