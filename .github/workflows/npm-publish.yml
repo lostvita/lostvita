@@ -4,11 +4,12 @@ name: Lostvita Package
 
 on:
   push:
-    branches: feat/action-ci # master 分支提交时触发
+    branches: master # master 分支提交时触发
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: "contains(github.event.head_commit.message, 'chore: release')"
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
