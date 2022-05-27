@@ -1,11 +1,10 @@
 {
   "name": "lostvita",
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
-    "release": "git pull && lerna version --yes --message \"chore: release\""
+    "release": "git pull && lerna version --yes --message \"chore: release\"",
+    "deploy": "lerna publish from-package --yes"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
