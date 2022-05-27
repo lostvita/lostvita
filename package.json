@@ -1,8 +1,5 @@
 {
   "name": "lostvita",
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
