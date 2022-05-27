@@ -1,4 +1,4 @@
 const hello = () => {
   const name = 'ashoot'
-  console.log('hello ', name)
+  console.log('hello, ', name)
 }
