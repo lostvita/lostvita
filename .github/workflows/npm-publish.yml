@@ -27,7 +27,6 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run: npm adduser --registry=https://registry.npmjs.org/:_authToken=${{secrets.ACTION_NPM_TOKEN}}
       - run: yarn deploy
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
