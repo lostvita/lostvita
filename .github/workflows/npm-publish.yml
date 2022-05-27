@@ -27,6 +27,6 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run: yarn deploy --access=public
+      - run: yarn deploy
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
