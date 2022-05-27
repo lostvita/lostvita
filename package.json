@@ -4,8 +4,10 @@
     "packages/*"
   ],
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
-    "release": "git pull && lerna version --yes --message \"chore: release\""
+    "release": "git pull && lerna version --yes --message \"chore: release\"",
+    "publish": "echo \"publish...\" && exit 1"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
